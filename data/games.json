@@ -1,5 +1,72 @@
 [
   {
+    "id": "silent-hill-f",
+    "title": "Silent Hill f",
+    "description": "Experience the latest chapter in the legendary Silent Hill series. Set in 1960s Japan, this psychological horror masterpiece delivers an immersive narrative with stunning visuals powered by Unreal Engine 5.",
+    "category": "Horror",
+    "iframeUrl": "https://www.konami.com/games/silenthill/f/gate",
+    "whatIs": "Silent Hill f is an upcoming 2025 survival horror game developed by NeoBards Entertainment and published by Konami Digital Entertainment. A new mainline entry in the series, it is a standalone spin-off story in the Silent Hill franchise. Set during the 1960s in the fictional town of Ebisugaoka, Japan, it follows Hinako Shimizu, a high school student who navigates the town, now consumed by fog, while solving puzzles and fighting grotesque monsters to survive.",
+    "howToPlay": "Navigate through the atmospheric environments of 1960s Japan using intuitive controls. Explore the haunting landscapes of Ebisugaoka, interact with objects and characters, solve puzzles, and engage in close-quarters combat with grotesque monsters. The game emphasizes strategic combat over ranged weapons, focusing on psychological horror and survival elements.",
+    "features": [
+      "Official Konami Silent Hill f experience",
+      "Set in atmospheric 1960s Japan (Ebisugaoka)",
+      "Powered by Unreal Engine 5 technology",
+      "Psychological horror gameplay with Japanese aesthetics",
+      "Immersive narrative by Ryukishi07 (Higurashi When They Cry)",
+      "Music by Akira Yamaoka and Kensuke Inage",
+      "Female protagonist Hinako Shimizu",
+      "100% Japanese horror theme",
+      "Strategic close-quarters combat",
+      "Age-appropriate content warnings (18+)"
+    ],
+    "faqs": [
+      {
+        "question": "When will Silent Hill f be released?",
+        "answer": "Silent Hill f is scheduled to release on September 25, 2025, for PlayStation 5, Windows, and Xbox Series X/S. Early access begins September 23, 2025, for Deluxe Edition pre-orders."
+      },
+      {
+        "question": "Who developed Silent Hill f?",
+        "answer": "Silent Hill f is developed by NeoBards Entertainment (Taiwan) and published by Konami Digital Entertainment. The game is directed by Al Yang and written by Ryukishi07."
+      },
+      {
+        "question": "What makes Silent Hill f different from other Silent Hill games?",
+        "answer": "Silent Hill f is set in 1960s Japan (Ebisugaoka) and focuses on 100% Japanese horror aesthetics. It features a female protagonist who actively makes choices rather than being pulled along by the story."
+      },
+      {
+        "question": "What is the game's theme?",
+        "answer": "The game explores the Japanese horror concept of 'finding terror in beauty' - when something becomes too immensely beautiful and perfect, it becomes deeply unsettling."
+      },
+      {
+        "question": "Can I play this on mobile devices?",
+        "answer": "The browser version is optimized for both desktop and mobile devices. The full game will be available on PlayStation 5, Windows, and Xbox Series X/S."
+      },
+      {
+        "question": "What age rating does this game have?",
+        "answer": "Silent Hill f is rated for mature audiences (18+) due to psychological horror themes, graphic violence, and intense content including depictions of trauma and emotional distress."
+      }
+    ],
+    "addedDate": "2024-01-20",
+    "rating": 4.8,
+    "playCount": 3500,
+    "releaseDate": "2025-09-25",
+    "developer": "NeoBards Entertainment",
+    "publisher": "Konami Digital Entertainment",
+    "director": "Al Yang",
+    "writer": "Ryukishi07",
+    "composer": "Akira Yamaoka, Kensuke Inage",
+    "engine": "Unreal Engine 5",
+    "platforms": ["PlayStation 5", "Windows", "Xbox Series X/S"],
+    "genre": "Survival Horror",
+    "setting": "1960s Japan (Ebisugaoka)",
+    "protagonist": "Hinako Shimizu",
+    "officialLinks": {
+      "konami": "https://www.konami.com/games/silenthill/f/gate",
+      "steam": "https://store.steampowered.com/agecheck/app/2947440/",
+      "series": "https://www.konami.com/games/silenthill/gate",
+      "wikipedia": "https://en.wikipedia.org/wiki/Silent_Hill_f"
+    }
+  },
+  {
     "id": "space-adventure",
     "title": "Space Adventure",
     "description": "Embark on an epic journey through the cosmos in this thrilling space exploration game. Navigate through asteroid fields, discover new planets, and battle alien enemies in this action-packed adventure.",

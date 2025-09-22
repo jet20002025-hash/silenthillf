@@ -41,6 +41,19 @@
     
     <!-- Individual Game Pages -->
     <url>
+        <loc>https://silenthillf.store/games/silent-hill-f.html</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <mobile:mobile/>
+        <image:image>
+            <image:loc>https://silenthillf.store/assets/images/silent-hill-f.jpg</image:loc>
+            <image:title>Silent Hill f - Official Game</image:title>
+            <image:caption>Latest Silent Hill series installment set in 1960s Japan</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
         <loc>https://silenthillf.store/games/space-adventure.html</loc>
         <lastmod>2024-01-15</lastmod>
         <changefreq>weekly</changefreq>
