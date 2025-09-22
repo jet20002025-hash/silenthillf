@@ -25,24 +25,48 @@
         "answer": "Silent Hill f is scheduled to release on September 25, 2025, for PlayStation 5, Windows, and Xbox Series X/S. Early access begins September 23, 2025, for Deluxe Edition pre-orders."
       },
       {
-        "question": "Who developed Silent Hill f?",
-        "answer": "Silent Hill f is developed by NeoBards Entertainment (Taiwan) and published by Konami Digital Entertainment. The game is directed by Al Yang and written by Ryukishi07."
+        "question": "How much does Silent Hill f cost?",
+        "answer": "The game is priced at $69.99 USD for both digital and physical versions. Pre-orders are currently available on all platforms."
       },
       {
-        "question": "What makes Silent Hill f different from other Silent Hill games?",
-        "answer": "Silent Hill f is set in 1960s Japan (Ebisugaoka) and focuses on 100% Japanese horror aesthetics. It features a female protagonist who actively makes choices rather than being pulled along by the story."
+        "question": "What are the system requirements for PC?",
+        "answer": "Minimum: Windows 10, Intel Core i5-8400 or AMD Ryzen 5 2600, 8GB RAM, NVIDIA GTX 1060 or AMD RX 580. Recommended: Windows 11, Intel Core i7-10700K or AMD Ryzen 7 3700X, 16GB RAM, NVIDIA RTX 3070 or AMD RX 6700 XT."
       },
       {
-        "question": "What is the game's theme?",
-        "answer": "The game explores the Japanese horror concept of 'finding terror in beauty' - when something becomes too immensely beautiful and perfect, it becomes deeply unsettling."
+        "question": "How long is the game?",
+        "answer": "Silent Hill f offers approximately 12-15 hours of main story gameplay, with additional content bringing total playtime to 20+ hours including side quests and multiple endings."
       },
       {
-        "question": "Can I play this on mobile devices?",
-        "answer": "The browser version is optimized for both desktop and mobile devices. The full game will be available on PlayStation 5, Windows, and Xbox Series X/S."
+        "question": "Is Silent Hill f multiplayer?",
+        "answer": "No, Silent Hill f is a single-player experience focused on psychological horror and narrative storytelling."
       },
       {
-        "question": "What age rating does this game have?",
-        "answer": "Silent Hill f is rated for mature audiences (18+) due to psychological horror themes, graphic violence, and intense content including depictions of trauma and emotional distress."
+        "question": "Does the game support multiple languages?",
+        "answer": "Yes, Silent Hill f supports multiple languages including English, Japanese, French, German, Spanish, Italian, Portuguese, Russian, Polish, Arabic, Traditional Chinese, Simplified Chinese, and Korean."
+      },
+      {
+        "question": "Is Silent Hill f suitable for beginners?",
+        "answer": "While the game is accessible to newcomers, it contains mature themes and psychological horror elements. The difficulty can be adjusted, but the atmospheric tension remains intense throughout."
+      },
+      {
+        "question": "Are there multiple endings?",
+        "answer": "Yes, Silent Hill f features multiple endings including the beloved UFO ending, encouraging multiple playthroughs to experience all story branches."
+      },
+      {
+        "question": "Does the game have jump scares?",
+        "answer": "Silent Hill f focuses more on psychological horror and atmospheric tension rather than traditional jump scares, though some intense moments may startle players."
+      },
+      {
+        "question": "Can I save my progress?",
+        "answer": "Yes, the game features an auto-save system and manual save points throughout the story. Your progress is automatically saved at key moments."
+      },
+      {
+        "question": "Is there a VR version?",
+        "answer": "Currently, Silent Hill f does not support VR. The game is designed for traditional console and PC gameplay."
+      },
+      {
+        "question": "Will there be DLC or expansions?",
+        "answer": "No DLC has been announced yet, but Konami has expressed interest in supporting the game post-launch based on player feedback."
       }
     ],
     "addedDate": "2024-01-20",
@@ -59,6 +83,45 @@
     "genre": "Survival Horror",
     "setting": "1960s Japan (Ebisugaoka)",
     "protagonist": "Hinako Shimizu",
+    "price": "$69.99 USD",
+    "gameplayLength": "12-15 hours (main story), 20+ hours (complete)",
+    "difficulty": "Adjustable",
+    "multiplayer": false,
+    "vrSupport": false,
+    "languages": ["English", "Japanese", "French", "German", "Spanish", "Italian", "Portuguese", "Russian", "Polish", "Arabic", "Traditional Chinese", "Simplified Chinese", "Korean"],
+    "systemRequirements": {
+      "minimum": {
+        "os": "Windows 10",
+        "processor": "Intel Core i5-8400 or AMD Ryzen 5 2600",
+        "memory": "8GB RAM",
+        "graphics": "NVIDIA GTX 1060 or AMD RX 580",
+        "storage": "50GB available space"
+      },
+      "recommended": {
+        "os": "Windows 11",
+        "processor": "Intel Core i7-10700K or AMD Ryzen 7 3700X",
+        "memory": "16GB RAM",
+        "graphics": "NVIDIA RTX 3070 or AMD RX 6700 XT",
+        "storage": "50GB available space"
+      }
+    },
+    "contentWarnings": [
+      "Psychological horror",
+      "Graphic violence",
+      "Mature themes",
+      "Emotional distress",
+      "Trauma depictions"
+    ],
+    "gameplayFeatures": [
+      "Multiple endings",
+      "Auto-save system",
+      "Manual save points",
+      "Adjustable difficulty",
+      "Close-quarters combat",
+      "Puzzle solving",
+      "Exploration",
+      "Atmospheric horror"
+    ],
     "officialLinks": {
       "konami": "https://www.konami.com/games/silenthill/f/gate",
       "steam": "https://store.steampowered.com/agecheck/app/2947440/",
