@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Hill F - Premium Online Games Collection</title>
+    <meta name="description" content="Discover the best online games at Silent Hill F. Play free browser games with stunning graphics and immersive gameplay. Updated daily with new games!">
+    <meta name="keywords" content="online games, browser games, free games, gaming, Silent Hill F, play games online">
+    <meta name="author" content="Silent Hill F">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://silenthillf.store/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Silent Hill F - Premium Online Games Collection">
+    <meta property="og:description" content="Discover the best online games at Silent Hill F. Play free browser games with stunning graphics and immersive gameplay.">
+    <meta property="og:image" content="https://silenthillf.store/assets/images/og-image.jpg">
+    <meta property="og:url" content="https://silenthillf.store/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Silent Hill F">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Silent Hill F - Premium Online Games Collection">
+    <meta name="twitter:description" content="Discover the best online games at Silent Hill F. Play free browser games with stunning graphics and immersive gameplay.">
+    <meta name="twitter:image" content="https://silenthillf.store/assets/images/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-gray': '#F2F2F7',
+                        'apple-dark': '#1C1C1E',
+                        'apple-light': '#FFFFFF',
+                        'apple-accent': '#FF3B30'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Silent Hill F",
+        "url": "https://silenthillf.store",
+        "description": "Premium online games collection with free browser games",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://silenthillf.store/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+<body class="bg-apple-gray text-apple-dark font-sans">
+    <!-- Header -->
+    <header class="bg-apple-light shadow-sm sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-apple-blue">Silent Hill F</h1>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#games" class="text-apple-dark hover:text-apple-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">Games</a>
+                        <a href="#about" class="text-apple-dark hover:text-apple-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">About</a>
+                        <a href="#contact" class="text-apple-dark hover:text-apple-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-apple-dark hover:text-apple-blue focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-apple-light border-t border-gray-200">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#games" class="text-apple-dark hover:text-apple-blue block px-3 py-2 rounded-md text-base font-medium">Games</a>
+                <a href="#about" class="text-apple-dark hover:text-apple-blue block px-3 py-2 rounded-md text-base font-medium">About</a>
+                <a href="#contact" class="text-apple-dark hover:text-apple-blue block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-apple-blue to-blue-600 text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Premium Online Games</h1>
+            <p class="text-xl md:text-2xl mb-8 opacity-90">Discover amazing browser games with stunning graphics and immersive gameplay</p>
+            <a href="#games" class="bg-white text-apple-blue px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors inline-block">Explore Games</a>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Featured Games</h2>
+            <div id="games-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Games will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">About Silent Hill F</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Your Gateway to Premium Gaming</h3>
+                    <p class="text-gray-600 mb-6">Silent Hill F brings you the finest collection of online browser games. We carefully curate each game to ensure the best gaming experience with stunning visuals, smooth gameplay, and engaging storylines.</p>
+                    <p class="text-gray-600 mb-6">Our platform is designed to work seamlessly across all devices - from desktop computers to mobile phones. No downloads required, just click and play!</p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-apple-blue mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Free to play, no registration required
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-apple-blue mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Mobile-optimized for all devices
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-apple-blue mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            Regular updates with new games
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-apple-gray rounded-lg p-8">
+                    <h3 class="text-2xl font-semibold mb-4">Why Choose Us?</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="bg-apple-blue text-white rounded-full p-2 mr-4 mt-1">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Quality Assurance</h4>
+                                <p class="text-gray-600 text-sm">Every game is tested for performance and compatibility</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-apple-blue text-white rounded-full p-2 mr-4 mt-1">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Community Driven</h4>
+                                <p class="text-gray-600 text-sm">Games selected based on user feedback and ratings</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-apple-blue text-white rounded-full p-2 mr-4 mt-1">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Fast Loading</h4>
+                                <p class="text-gray-600 text-sm">Optimized for quick loading and smooth gameplay</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-apple-gray">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Get In Touch</h2>
+            <div class="max-w-2xl mx-auto text-center">
+                <p class="text-gray-600 mb-8">Have a game suggestion or feedback? We'd love to hear from you!</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="mailto:contact@silenthillf.store" class="bg-apple-blue text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-600 transition-colors">
+                        Contact Us
+                    </a>
+                    <a href="/admin/add-game.html" class="bg-white text-apple-blue px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors border border-apple-blue">
+                        Suggest a Game
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-apple-dark text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-bold text-apple-blue">Silent Hill F</h3>
+                    <p class="text-gray-400 text-sm">Premium Online Games Collection</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="/privacy.html" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="/terms.html" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a>
+                    <a href="/sitemap.xml" class="text-gray-400 hover:text-white transition-colors">Sitemap</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
+                <p>&copy; 2024 Silent Hill F. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

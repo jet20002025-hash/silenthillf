@@ -1,0 +1,104 @@
+[
+  {
+    "id": "space-adventure",
+    "title": "Space Adventure",
+    "description": "Embark on an epic journey through the cosmos in this thrilling space exploration game. Navigate through asteroid fields, discover new planets, and battle alien enemies in this action-packed adventure.",
+    "category": "Adventure",
+    "iframeUrl": "https://example.com/game1",
+    "whatIs": "Space Adventure is an immersive browser-based space exploration game that combines action, strategy, and adventure elements. Players take on the role of a space pilot navigating through dangerous cosmic environments.",
+    "howToPlay": "Use arrow keys or WASD to control your spacecraft. Press spacebar to shoot lasers at enemies. Collect power-ups to enhance your ship's capabilities. Navigate through asteroid fields and avoid enemy fire to reach your destination.",
+    "features": [
+      "Stunning 3D graphics and visual effects",
+      "Multiple spacecraft to unlock and customize",
+      "Challenging boss battles",
+      "Progressive difficulty levels",
+      "Achievement system",
+      "Leaderboards for competitive play"
+    ],
+    "faqs": [
+      {
+        "question": "Is this game free to play?",
+        "answer": "Yes, Space Adventure is completely free to play in your browser. No downloads or registration required."
+      },
+      {
+        "question": "What browsers are supported?",
+        "answer": "The game works on all modern browsers including Chrome, Firefox, Safari, and Edge."
+      },
+      {
+        "question": "Can I save my progress?",
+        "answer": "Yes, your progress is automatically saved in your browser's local storage."
+      }
+    ],
+    "addedDate": "2024-01-15",
+    "rating": 4.5,
+    "playCount": 1250
+  },
+  {
+    "id": "puzzle-master",
+    "title": "Puzzle Master",
+    "description": "Challenge your mind with intricate puzzles and brain-teasing challenges. This collection of puzzle games will test your logic, memory, and problem-solving skills.",
+    "category": "Puzzle",
+    "iframeUrl": "https://example.com/game2",
+    "whatIs": "Puzzle Master is a comprehensive puzzle game collection featuring various types of brain teasers, logic puzzles, and memory challenges designed to stimulate cognitive abilities.",
+    "howToPlay": "Select a puzzle type from the main menu. Follow the on-screen instructions for each puzzle. Use mouse clicks or touch gestures to interact with puzzle elements. Complete puzzles to unlock new challenges.",
+    "features": [
+      "Over 100 unique puzzles",
+      "Multiple difficulty levels",
+      "Hint system for challenging puzzles",
+      "Progress tracking",
+      "Daily puzzle challenges",
+      "Mobile-optimized touch controls"
+    ],
+    "faqs": [
+      {
+        "question": "How many puzzles are available?",
+        "answer": "There are over 100 unique puzzles across different categories and difficulty levels."
+      },
+      {
+        "question": "Are there hints available?",
+        "answer": "Yes, each puzzle includes a hint system to help you when you're stuck."
+      },
+      {
+        "question": "Can I play on mobile devices?",
+        "answer": "Absolutely! The game is fully optimized for mobile devices with touch controls."
+      }
+    ],
+    "addedDate": "2024-01-10",
+    "rating": 4.3,
+    "playCount": 2100
+  },
+  {
+    "id": "racing-champion",
+    "title": "Racing Champion",
+    "description": "Experience high-speed racing action with stunning graphics and realistic physics. Compete against AI opponents or other players in this adrenaline-pumping racing game.",
+    "category": "Racing",
+    "iframeUrl": "https://example.com/game3",
+    "whatIs": "Racing Champion is a high-octane browser racing game featuring realistic physics, stunning graphics, and competitive multiplayer gameplay. Choose from various cars and race tracks.",
+    "howToPlay": "Use arrow keys or WASD to accelerate, brake, and steer. Press spacebar for handbrake. Navigate through checkpoints to complete laps. Avoid obstacles and other racers to maintain your position.",
+    "features": [
+      "Realistic physics engine",
+      "Multiple car models and tracks",
+      "Multiplayer racing mode",
+      "Customizable car appearance",
+      "Weather effects and day/night cycles",
+      "Replay system for reviewing races"
+    ],
+    "faqs": [
+      {
+        "question": "Can I play with friends?",
+        "answer": "Yes, the game includes multiplayer mode where you can race against friends or other players online."
+      },
+      {
+        "question": "How many tracks are available?",
+        "answer": "There are 12 different tracks with varying difficulty and environmental conditions."
+      },
+      {
+        "question": "Is there a single-player mode?",
+        "answer": "Yes, you can race against AI opponents in single-player mode with different difficulty settings."
+      }
+    ],
+    "addedDate": "2024-01-05",
+    "rating": 4.7,
+    "playCount": 3200
+  }
+]

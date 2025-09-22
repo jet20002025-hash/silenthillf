@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Game - Silent Hill F</title>
+    <meta name="description" content="Add a new game to Silent Hill F's collection. Submit your favorite browser games for our community to enjoy.">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="canonical" href="https://silenthillf.store/admin/add-game.html">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-gray': '#F2F2F7',
+                        'apple-dark': '#1C1C1E',
+                        'apple-light': '#FFFFFF',
+                        'apple-accent': '#FF3B30'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-apple-gray text-apple-dark font-sans">
+    <!-- Header -->
+    <header class="bg-apple-light shadow-sm">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="/" class="text-2xl font-bold text-apple-blue">Silent Hill F</a>
+                </div>
+                <div class="text-sm text-gray-600">
+                    Admin Panel
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="bg-white rounded-lg shadow-md p-8">
+            <h1 class="text-3xl font-bold mb-8 text-center">Add New Game</h1>
+            
+            <form id="add-game-form" class="space-y-6">
+                <!-- Game Title -->
+                <div>
+                    <label for="title" class="block text-sm font-medium text-gray-700 mb-2">Game Title *</label>
+                    <input type="text" id="title" name="title" required 
+                           class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-apple-blue focus:border-transparent"
+                           placeholder="Enter game title">
+                </div>
+
+                <!-- Game Description -->
+                <div>
+                    <label for="description" class="block text-sm font-medium text-gray-700 mb-2">Game Description *</label>
+                    <textarea id="description" name="description" required rows="3"
+                              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-apple-blue focus:border-transparent"
+                              placeholder="Brief description of the game"></textarea>
+                </div>
+
+                <!-- Category -->
+                <div>
+                    <label for="category" class="block text-sm font-medium text-gray-700 mb-2">Category *</label>
+                    <select id="category" name="category" required
+                            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-apple-blue focus:border-transparent">
+                        <option value="">Select a category</option>
+                        <option value="Action">Action</option>
+                        <option value="Adventure">Adventure</option>
+                        <option value="Puzzle">Puzzle</option>
+                        <option value="Racing">Racing</option>
+                        <option value="Strategy">Strategy</option>
+                        <option value="Sports">Sports</option>
+                        <option value="Arcade">Arcade</option>
+                        <option value="Simulation">Simulation</option>
+                        <option value="RPG">RPG</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <!-- Iframe URL -->
+                <div>
+                    <label for="iframeUrl" class="block text-sm font-medium text-gray-700 mb-2">Game Iframe URL *</label>
+                    <input type="url" id="iframeUrl" name="iframeUrl" required
+                           class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-apple-blue focus:border-transparent"
+                           placeholder="https://example.com/game">
+                    <p class="text-sm text-gray-500 mt-1">Enter the direct iframe URL for the game</p>
+                </div>
+
+                <!-- What Is Section -->
+                <div>
+                    <label for="whatIs" class="block text-sm font-medium text-gray-700 mb-2">What Is (Game Introduction) *</label>
+                    <textarea id="whatIs" name="whatIs" required rows="4"
+                              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-apple-blue focus:border-transparent"
+                              placeholder="Detailed introduction about what the game is about"></textarea>
+                </div>
+
+                <!-- How to Play -->
+                <div>
+                    <label for="howToPlay" class="block text-sm font-medium text-gray-700 mb-2">How to Play (Gameplay Guide) *</label>
+                    <textarea id="howToPlay" name="howToPlay" required rows="4"
+                              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-apple-blue focus:border-transparent"
+                              placeholder="Instructions on how to play the game"></textarea>
+                </div>
+
+                <!-- Features -->
+                <div>
+                    <label for="features" class="block text-sm font-medium text-gray-700 mb-2">Features (Game Features) *</label>
+                    <textarea id="features" name="features" required rows="4"
+                              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-apple-blue focus:border-transparent"
+                              placeholder="List the main features of the game (one per line)"></textarea>
+                    <p class="text-sm text-gray-500 mt-1">Enter each feature on a new line</p>
+                </div>
+
+                <!-- FAQs -->
+                <div>
+                    <label for="faqs" class="block text-sm font-medium text-gray-700 mb-2">FAQs (Frequently Asked Questions)</label>
+                    <textarea id="faqs" name="faqs" rows="6"
+                              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-apple-blue focus:border-transparent"
+                              placeholder="Format: Question: Your question here&#10;Answer: Your answer here&#10;&#10;Question: Next question&#10;Answer: Next answer"></textarea>
+                    <p class="text-sm text-gray-500 mt-1">Format: Question: [question] on one line, Answer: [answer] on the next line</p>
+                </div>
+
+                <!-- Rating -->
+                <div>
+                    <label for="rating" class="block text-sm font-medium text-gray-700 mb-2">Initial Rating (1-5)</label>
+                    <select id="rating" name="rating"
+                            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-apple-blue focus:border-transparent">
+                        <option value="3">3.0 - Good</option>
+                        <option value="3.5">3.5 - Very Good</option>
+                        <option value="4">4.0 - Great</option>
+                        <option value="4.5">4.5 - Excellent</option>
+                        <option value="5">5.0 - Outstanding</option>
+                    </select>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="flex justify-center pt-6">
+                    <button type="submit" 
+                            class="bg-apple-blue text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-600 transition-colors focus:outline-none focus:ring-2 focus:ring-apple-blue focus:ring-offset-2">
+                        Add Game
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- Success Modal -->
+    <div id="success-modal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+        <div class="bg-white rounded-lg p-8 max-w-md mx-4">
+            <div class="text-center">
+                <div class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-green-100 mb-4">
+                    <svg class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                </div>
+                <h3 class="text-lg font-medium text-gray-900 mb-2">Game Added Successfully!</h3>
+                <p class="text-gray-600 mb-6">Your game has been added to the collection. It will appear on the main page shortly.</p>
+                <div class="flex space-x-4">
+                    <button onclick="closeSuccessModal()" class="flex-1 bg-apple-blue text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors">
+                        OK
+                    </button>
+                    <a href="/" class="flex-1 bg-gray-200 text-gray-800 px-4 py-2 rounded-md hover:bg-gray-300 transition-colors text-center">
+                        View Games
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        document.getElementById('add-game-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Collect form data
+            const formData = new FormData(this);
+            const gameData = {
+                id: generateGameId(formData.get('title')),
+                title: formData.get('title'),
+                description: formData.get('description'),
+                category: formData.get('category'),
+                iframeUrl: formData.get('iframeUrl'),
+                whatIs: formData.get('whatIs'),
+                howToPlay: formData.get('howToPlay'),
+                features: formData.get('features').split('\n').filter(f => f.trim()),
+                faqs: parseFAQs(formData.get('faqs')),
+                addedDate: new Date().toISOString().split('T')[0],
+                rating: parseFloat(formData.get('rating')),
+                playCount: 0
+            };
+            
+            // In a real implementation, this would send data to a server
+            // For now, we'll simulate success
+            console.log('Game data:', gameData);
+            
+            // Show success modal
+            showSuccessModal();
+            
+            // Reset form
+            this.reset();
+        });
+        
+        function generateGameId(title) {
+            return title.toLowerCase()
+                .replace(/[^a-z0-9\s]/g, '')
+                .replace(/\s+/g, '-')
+                .substring(0, 50);
+        }
+        
+        function parseFAQs(faqsText) {
+            if (!faqsText.trim()) return [];
+            
+            const faqs = [];
+            const lines = faqsText.split('\n');
+            let currentFAQ = {};
+            
+            for (let line of lines) {
+                line = line.trim();
+                if (line.startsWith('Question:')) {
+                    if (currentFAQ.question) {
+                        faqs.push(currentFAQ);
+                    }
+                    currentFAQ = { question: line.replace('Question:', '').trim() };
+                } else if (line.startsWith('Answer:')) {
+                    currentFAQ.answer = line.replace('Answer:', '').trim();
+                }
+            }
+            
+            if (currentFAQ.question) {
+                faqs.push(currentFAQ);
+            }
+            
+            return faqs;
+        }
+        
+        function showSuccessModal() {
+            document.getElementById('success-modal').classList.remove('hidden');
+            document.getElementById('success-modal').classList.add('flex');
+        }
+        
+        function closeSuccessModal() {
+            document.getElementById('success-modal').classList.add('hidden');
+            document.getElementById('success-modal').classList.remove('flex');
+        }
+    </script>
+</body>
+</html>
