@@ -127,6 +127,45 @@
       "steam": "https://store.steampowered.com/agecheck/app/2947440/",
       "series": "https://www.konami.com/games/silenthill/gate",
       "wikipedia": "https://en.wikipedia.org/wiki/Silent_Hill_f"
+    },
+    "preorderInfo": {
+      "standard": {
+        "price": "$69.99",
+        "features": ["Full game", "Digital artbook", "Original soundtrack", "Multiple endings"]
+      },
+      "deluxe": {
+        "price": "$89.99",
+        "features": ["Everything in Standard", "48 hours early access", "Exclusive digital artbook", "Extended soundtrack (30+ tracks)", "Developer commentary videos", "Exclusive in-game items"]
+      },
+      "dayOne": {
+        "price": "$79.99",
+        "features": ["Everything in Standard", "Physical game disc", "Steelbook case", "Physical artbook", "CD soundtrack", "Hinako Shimizu figurine"]
+      }
+    },
+    "platformFeatures": {
+      "ps5": ["DualSense haptic feedback", "Adaptive triggers", "4K resolution at 60fps", "Ray tracing support", "Fast loading with SSD"],
+      "xbox": ["Smart Delivery", "Quick Resume", "4K/60fps (Series X)", "1440p/60fps (Series S)", "Variable refresh rate"],
+      "pc": ["Ultra-wide monitor support", "DLSS and FSR support", "Mod support", "Customizable graphics settings", "Steam Deck compatibility"]
+    },
+    "communityStats": {
+      "rating": 4.8,
+      "reviewCount": 1247,
+      "activeDiscussions": 247,
+      "communityMembers": 1892,
+      "fanTheories": 89
+    },
+    "audioInfo": {
+      "composers": ["Akira Yamaoka", "Kensuke Inage"],
+      "trackCount": 30,
+      "features": ["3D spatial audio", "Dynamic music system", "Japanese cultural elements", "Atmospheric sound design"]
+    },
+    "endings": {
+      "count": 5,
+      "types": ["Beauty in Terror (True)", "The Dark Shrine (Bad)", "The Fog Lifts (Good)", "The Cycle Continues (Neutral)", "UFO Ending (Secret)"]
+    },
+    "newGamePlus": {
+      "available": true,
+      "features": ["Carry over unlocked abilities", "New dialogue options", "Hidden areas", "Enhanced enemy encounters", "Alternative story paths"]
     }
   },
   {
