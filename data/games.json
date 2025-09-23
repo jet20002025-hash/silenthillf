@@ -130,6 +130,174 @@
     }
   },
   {
+    "id": "silent-hill-2",
+    "title": "Silent Hill 2",
+    "description": "Experience the psychological horror masterpiece that defined the survival horror genre. Follow James Sunderland as he searches for his deceased wife in the fog-shrouded town of Silent Hill.",
+    "category": "Horror",
+    "iframeUrl": "https://silenthillf.store/games/silent-hill-2.html",
+    "whatIs": "Silent Hill 2 is a survival horror game that follows James Sunderland, who receives a letter from his deceased wife Mary asking him to meet her in Silent Hill. The game is renowned for its psychological horror, complex narrative, and symbolic storytelling.",
+    "howToPlay": "Navigate through the foggy streets of Silent Hill, solve puzzles, and confront nightmarish creatures. Use various weapons and items to survive. The game features multiple endings based on your actions and choices throughout the story.",
+    "features": [
+      "Psychological horror masterpiece",
+      "Multiple endings based on player choices",
+      "Iconic Pyramid Head enemy",
+      "Atmospheric fog and sound design",
+      "Deep symbolic storytelling",
+      "Remastered graphics and audio",
+      "Classic survival horror gameplay",
+      "Emotional narrative depth"
+    ],
+    "faqs": [
+      {
+        "question": "Is Silent Hill 2 a remake or remaster?",
+        "answer": "Silent Hill 2 has been remastered with improved graphics and audio, but the core gameplay and story remain faithful to the original."
+      },
+      {
+        "question": "How many endings does the game have?",
+        "answer": "Silent Hill 2 features 6 different endings, including the famous 'In Water' and 'Leave' endings."
+      },
+      {
+        "question": "Is this game suitable for beginners?",
+        "answer": "While the game is accessible, it contains mature themes and psychological horror elements that may not be suitable for all players."
+      }
+    ],
+    "addedDate": "2024-01-20",
+    "rating": 4.9,
+    "playCount": 8500,
+    "releaseDate": "2001-09-24",
+    "developer": "Team Silent",
+    "publisher": "Konami Digital Entertainment",
+    "genre": "Survival Horror",
+    "setting": "Silent Hill, USA",
+    "protagonist": "James Sunderland"
+  },
+  {
+    "id": "resident-evil-4",
+    "title": "Resident Evil 4",
+    "description": "Join Leon S. Kennedy on a mission to rescue the President's daughter in this action-packed survival horror game that revolutionized the genre.",
+    "category": "Horror",
+    "iframeUrl": "https://silenthillf.store/games/resident-evil-4.html",
+    "whatIs": "Resident Evil 4 is a survival horror game that follows Leon S. Kennedy as he attempts to rescue the President's daughter from a mysterious cult in rural Spain. The game introduced the over-the-shoulder camera perspective that became standard in action games.",
+    "howToPlay": "Use the over-the-shoulder camera to aim and shoot at enemies. Manage your inventory carefully, solve puzzles, and conserve ammunition. The game features quick-time events and strategic combat encounters.",
+    "features": [
+      "Over-the-shoulder camera perspective",
+      "Intense action-horror gameplay",
+      "Weapon upgrade system",
+      "Multiple difficulty levels",
+      "Mercenaries mini-game",
+      "Professional voice acting",
+      "Cinematic presentation",
+      "Replay value with unlockables"
+    ],
+    "faqs": [
+      {
+        "question": "Is Resident Evil 4 scary?",
+        "answer": "The game has horror elements but focuses more on action and tension rather than pure horror."
+      },
+      {
+        "question": "How long is the game?",
+        "answer": "The main story takes approximately 15-20 hours to complete, with additional content extending playtime."
+      },
+      {
+        "question": "Can I play this on modern consoles?",
+        "answer": "Yes, Resident Evil 4 has been remastered and is available on current-generation consoles and PC."
+      }
+    ],
+    "addedDate": "2024-01-20",
+    "rating": 4.8,
+    "playCount": 12000,
+    "releaseDate": "2005-01-11",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "genre": "Survival Horror",
+    "setting": "Rural Spain",
+    "protagonist": "Leon S. Kennedy"
+  },
+  {
+    "id": "fatal-frame-2",
+    "title": "Fatal Frame II: Crimson Butterfly",
+    "description": "Experience Japanese horror at its finest in this atmospheric survival horror game where you use a camera to battle supernatural entities.",
+    "category": "Horror",
+    "iframeUrl": "https://silenthillf.store/games/fatal-frame-2.html",
+    "whatIs": "Fatal Frame II: Crimson Butterfly is a survival horror game that follows twin sisters Mio and Mayu as they explore an abandoned village haunted by vengeful spirits. Players use a special camera to capture and defeat ghosts.",
+    "howToPlay": "Explore the haunted village, solve puzzles, and use the Camera Obscura to photograph and defeat ghosts. The camera is your only weapon, and timing is crucial for effective ghost capture.",
+    "features": [
+      "Unique camera-based combat system",
+      "Atmospheric Japanese horror setting",
+      "Twin sister protagonists",
+      "Multiple endings",
+      "Haunting sound design",
+      "Psychological horror elements",
+      "Cultural horror themes",
+      "Immersive exploration"
+    ],
+    "faqs": [
+      {
+        "question": "Do I need to play the first Fatal Frame?",
+        "answer": "No, Fatal Frame II is a standalone story, though playing the first game can enhance your understanding of the series."
+      },
+      {
+        "question": "Is the game very scary?",
+        "answer": "Yes, the game is known for its intense horror atmosphere and jump scares."
+      },
+      {
+        "question": "How does the camera combat work?",
+        "answer": "You aim the camera at ghosts and take photos to damage them. Timing and positioning are key to success."
+      }
+    ],
+    "addedDate": "2024-01-20",
+    "rating": 4.7,
+    "playCount": 6800,
+    "releaseDate": "2003-11-27",
+    "developer": "Tecmo",
+    "publisher": "Tecmo",
+    "genre": "Survival Horror",
+    "setting": "Minakami Village, Japan",
+    "protagonist": "Mio and Mayu Amakura"
+  },
+  {
+    "id": "soma",
+    "title": "SOMA",
+    "description": "Dive into the depths of psychological horror in this thought-provoking game that explores consciousness, identity, and what it means to be human.",
+    "category": "Horror",
+    "iframeUrl": "https://silenthillf.store/games/soma.html",
+    "whatIs": "SOMA is a survival horror game that follows Simon Jarrett as he awakens in an underwater research facility. The game explores themes of consciousness, identity, and the nature of human existence through its atmospheric horror and philosophical narrative.",
+    "howToPlay": "Navigate through the underwater facility, solve puzzles, and avoid hostile creatures. The game focuses on exploration and story rather than combat, with stealth elements and environmental storytelling.",
+    "features": [
+      "Deep philosophical narrative",
+      "Atmospheric underwater setting",
+      "Thought-provoking themes",
+      "Environmental storytelling",
+      "Stealth-based gameplay",
+      "Multiple endings",
+      "Immersive sound design",
+      "No combat mechanics"
+    ],
+    "faqs": [
+      {
+        "question": "Is SOMA a scary game?",
+        "answer": "Yes, it's a psychological horror game with atmospheric tension and disturbing themes."
+      },
+      {
+        "question": "Does the game have combat?",
+        "answer": "No, SOMA focuses on exploration, puzzle-solving, and stealth rather than combat."
+      },
+      {
+        "question": "How long is the game?",
+        "answer": "The main story takes approximately 8-10 hours to complete."
+      }
+    ],
+    "addedDate": "2024-01-20",
+    "rating": 4.6,
+    "playCount": 4200,
+    "releaseDate": "2015-09-22",
+    "developer": "Frictional Games",
+    "publisher": "Frictional Games",
+    "genre": "Survival Horror",
+    "setting": "Underwater Research Facility",
+    "protagonist": "Simon Jarrett"
+  },
+  {
     "id": "space-adventure",
     "title": "Space Adventure",
     "description": "Embark on an epic journey through the cosmos in this thrilling space exploration game. Navigate through asteroid fields, discover new planets, and battle alien enemies in this action-packed adventure.",

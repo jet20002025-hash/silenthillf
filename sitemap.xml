@@ -52,6 +52,34 @@
             <image:caption>Latest Silent Hill series installment set in 1960s Japan</image:caption>
         </image:image>
     </url>
+    <url>
+        <loc>https://silenthillf.store/games/silent-hill-2.html</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+    <url>
+        <loc>https://silenthillf.store/games/resident-evil-4.html</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+    <url>
+        <loc>https://silenthillf.store/games/fatal-frame-2.html</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+    <url>
+        <loc>https://silenthillf.store/games/soma.html</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
     
     <url>
         <loc>https://silenthillf.store/games/space-adventure.html</loc>
