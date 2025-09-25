@@ -123,9 +123,9 @@ function createGameCard(game) {
                     <span class="text-sm text-gray-500">${game.category}</span>
                     ${game.rating ? `<span class="text-sm text-yellow-600">★ ${game.rating}</span>` : ''}
                 </div>
-                <button onclick="openGameModal('${game.id}')" class="bg-apple-blue text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-blue-600 transition-colors">
+                <a href="${game.iframeUrl}" target="_blank" class="bg-apple-blue text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-blue-600 transition-colors inline-block text-center">
                     Play Now
-                </button>
+                </a>
             </div>
         </div>
     `;
