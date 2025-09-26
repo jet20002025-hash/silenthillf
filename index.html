@@ -35,16 +35,27 @@
             theme: {
                 extend: {
                     colors: {
-                        'apple-blue': '#007AFF',
-                        'apple-gray': '#F2F2F7',
-                        'apple-dark': '#1C1C1E',
-                        'apple-light': '#FFFFFF',
-                        'apple-accent': '#FF3B30'
+                        'silent-dark': '#0a0a0a',
+                        'silent-gray': '#1a1a1a',
+                        'silent-red': '#8B0000',
+                        'silent-fog': '#4a4a4a',
+                        'silent-accent': '#DC143C',
+                        'silent-gold': '#DAA520',
+                        'silent-blue': '#191970'
+                    },
+                    fontFamily: {
+                        'horror': ['Creepster', 'cursive'],
+                        'gothic': ['Nosifer', 'cursive']
                     }
                 }
             }
         }
     </script>
+    
+    <!-- Google Fonts for Horror Theme -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Nosifer&display=swap" rel="stylesheet">
     
     <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7208260866318884"
@@ -66,28 +77,29 @@
     }
     </script>
 </head>
-<body class="bg-apple-gray text-apple-dark font-sans">
+<body class="bg-silent-dark text-white font-sans">
     <!-- Header -->
-    <header class="bg-apple-light shadow-sm sticky top-0 z-50">
+    <header class="bg-silent-gray shadow-lg sticky top-0 z-50 border-b border-silent-red">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center">
-                    <h1 class="text-2xl font-bold text-apple-blue">Silent Hill F</h1>
+                    <h1 class="text-2xl font-bold text-silent-accent font-horror">SILENT HILL f</h1>
                 </div>
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">
-                        <a href="#games" class="text-apple-dark hover:text-apple-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">Games</a>
-                        <a href="/preorder.html" class="text-apple-dark hover:text-apple-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">Pre-Order</a>
-                        <a href="/news.html" class="text-apple-dark hover:text-apple-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">News</a>
-                        <a href="/guides.html" class="text-apple-dark hover:text-apple-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">Guides</a>
-                        <a href="/videos.html" class="text-apple-dark hover:text-apple-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">Videos</a>
-                        <a href="/team.html" class="text-apple-dark hover:text-apple-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">Team</a>
-                        <a href="/endings.html" class="text-apple-dark hover:text-apple-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">Endings</a>
-                        <a href="#about" class="text-apple-dark hover:text-apple-blue px-3 py-2 rounded-md text-sm font-medium transition-colors">About</a>
+                        <a href="#games" class="text-white hover:text-silent-accent px-3 py-2 rounded-md text-sm font-medium transition-colors">Games</a>
+                        <a href="/preorder.html" class="text-white hover:text-silent-accent px-3 py-2 rounded-md text-sm font-medium transition-colors">Pre-Order</a>
+                        <a href="/news.html" class="text-white hover:text-silent-accent px-3 py-2 rounded-md text-sm font-medium transition-colors">News</a>
+                        <a href="/guides.html" class="text-white hover:text-silent-accent px-3 py-2 rounded-md text-sm font-medium transition-colors">Guides</a>
+                        <a href="/videos.html" class="text-white hover:text-silent-accent px-3 py-2 rounded-md text-sm font-medium transition-colors">Videos</a>
+                        <a href="/team.html" class="text-white hover:text-silent-accent px-3 py-2 rounded-md text-sm font-medium transition-colors">Team</a>
+                        <a href="/endings.html" class="text-white hover:text-silent-accent px-3 py-2 rounded-md text-sm font-medium transition-colors">Endings</a>
+                        <a href="/faq.html" class="text-white hover:text-silent-accent px-3 py-2 rounded-md text-sm font-medium transition-colors">FAQ</a>
+                        <a href="#about" class="text-white hover:text-silent-accent px-3 py-2 rounded-md text-sm font-medium transition-colors">About</a>
                     </div>
                 </div>
                 <div class="md:hidden">
-                    <button id="mobile-menu-button" class="text-apple-dark hover:text-apple-blue focus:outline-none">
+                    <button id="mobile-menu-button" class="text-white hover:text-silent-accent focus:outline-none">
                         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
@@ -97,41 +109,73 @@
         </nav>
         
         <!-- Mobile menu -->
-        <div id="mobile-menu" class="md:hidden hidden bg-apple-light border-t border-gray-200">
+        <div id="mobile-menu" class="md:hidden hidden bg-silent-gray border-t border-silent-red">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="#games" class="text-apple-dark hover:text-apple-blue block px-3 py-2 rounded-md text-base font-medium">Games</a>
-                <a href="/preorder.html" class="text-apple-dark hover:text-apple-blue block px-3 py-2 rounded-md text-base font-medium">Pre-Order</a>
-                <a href="/news.html" class="text-apple-dark hover:text-apple-blue block px-3 py-2 rounded-md text-base font-medium">News</a>
-                <a href="/guides.html" class="text-apple-dark hover:text-apple-blue block px-3 py-2 rounded-md text-base font-medium">Guides</a>
-                <a href="/videos.html" class="text-apple-dark hover:text-apple-blue block px-3 py-2 rounded-md text-base font-medium">Videos</a>
-                <a href="/team.html" class="text-apple-dark hover:text-apple-blue block px-3 py-2 rounded-md text-base font-medium">Team</a>
-                <a href="/endings.html" class="text-apple-dark hover:text-apple-blue block px-3 py-2 rounded-md text-base font-medium">Endings</a>
-                <a href="#about" class="text-apple-dark hover:text-apple-blue block px-3 py-2 rounded-md text-base font-medium">About</a>
+                <a href="#games" class="text-white hover:text-silent-accent block px-3 py-2 rounded-md text-base font-medium">Games</a>
+                <a href="/preorder.html" class="text-white hover:text-silent-accent block px-3 py-2 rounded-md text-base font-medium">Pre-Order</a>
+                <a href="/news.html" class="text-white hover:text-silent-accent block px-3 py-2 rounded-md text-base font-medium">News</a>
+                <a href="/guides.html" class="text-white hover:text-silent-accent block px-3 py-2 rounded-md text-base font-medium">Guides</a>
+                <a href="/videos.html" class="text-white hover:text-silent-accent block px-3 py-2 rounded-md text-base font-medium">Videos</a>
+                <a href="/team.html" class="text-white hover:text-silent-accent block px-3 py-2 rounded-md text-base font-medium">Team</a>
+                <a href="/endings.html" class="text-white hover:text-silent-accent block px-3 py-2 rounded-md text-base font-medium">Endings</a>
+                <a href="#about" class="text-white hover:text-silent-accent block px-3 py-2 rounded-md text-base font-medium">About</a>
             </div>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-apple-blue to-blue-600 text-white py-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 class="text-4xl md:text-6xl font-bold mb-6">Silent Hill f</h1>
-            <p class="text-xl md:text-2xl mb-4 opacity-90">Experience the Latest Chapter in the Legendary Silent Hill Series</p>
-            <p class="text-lg mb-8 opacity-80">Set in 1960s Japan • Powered by Unreal Engine 5 • <span class="text-green-400 font-bold">NOW AVAILABLE!</span></p>
+    <section class="relative bg-gradient-to-br from-silent-dark via-silent-gray to-silent-red text-white py-20 overflow-hidden">
+        <!-- Fog Effect Background -->
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-transparent via-silent-fog to-transparent opacity-30"></div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="mb-8">
+                <h1 class="text-6xl md:text-8xl font-bold mb-6 font-horror text-silent-accent drop-shadow-2xl">
+                    SILENT HILL f
+                </h1>
+                <p class="text-xl md:text-2xl mb-4 opacity-90 text-silent-gold">Experience psychological horror in 1960s Japan</p>
+                <p class="text-lg mb-8 opacity-80">As Hinako Shimizu navigates the fog-consumed town of Ebisugaoka</p>
+            </div>
+            
+            <!-- Countdown Timer -->
+            <div class="bg-gradient-to-r from-silent-red to-silent-accent rounded-lg p-8 mb-8 max-w-4xl mx-auto border-2 border-silent-gold">
+                <h2 class="text-2xl font-bold mb-6 text-silent-gold font-gothic">🌫️ THE FOG APPROACHES...</h2>
+                <div id="countdown" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-white mb-2" id="days">--</div>
+                        <div class="text-sm opacity-90">Days</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-white mb-2" id="hours">--</div>
+                        <div class="text-sm opacity-90">Hours</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-white mb-2" id="minutes">--</div>
+                        <div class="text-sm opacity-90">Minutes</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-white mb-2" id="seconds">--</div>
+                        <div class="text-sm opacity-90">Seconds</div>
+                    </div>
+                </div>
+                <p class="text-sm opacity-90">Until Silent Hill f Launches • September 25, 2025</p>
+            </div>
             
             <!-- Release Status -->
-            <div class="bg-gradient-to-r from-green-600 to-green-700 rounded-lg p-8 mb-8 max-w-4xl mx-auto">
-                <h2 class="text-2xl font-bold mb-6">🎉 Game Now Available!</h2>
+            <div class="bg-gradient-to-r from-silent-blue to-silent-dark rounded-lg p-8 mb-8 max-w-4xl mx-auto border border-silent-fog">
+                <h2 class="text-2xl font-bold mb-6 text-silent-gold">🎮 Game Now Available!</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div class="text-center">
-                        <div class="text-3xl font-bold text-white mb-2">88%</div>
+                        <div class="text-3xl font-bold text-silent-accent mb-2">88%</div>
                         <div class="text-sm opacity-90">Steam Very Positive</div>
                     </div>
                     <div class="text-center">
-                        <div class="text-3xl font-bold text-white mb-2">86</div>
+                        <div class="text-3xl font-bold text-silent-accent mb-2">86</div>
                         <div class="text-sm opacity-90">Metacritic Score</div>
                     </div>
                     <div class="text-center">
-                        <div class="text-3xl font-bold text-white mb-2">50GB</div>
+                        <div class="text-3xl font-bold text-silent-accent mb-2">50GB</div>
                         <div class="text-sm opacity-90">Storage Required</div>
                     </div>
                 </div>
@@ -139,15 +183,21 @@
             </div>
             
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://store.steampowered.com/agecheck/app/2947440/" target="_blank" class="bg-white text-apple-blue px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors inline-block">Buy Now on Steam</a>
-                <a href="https://www.konami.com/games/silenthill/f/gate" target="_blank" class="bg-apple-accent text-white px-8 py-3 rounded-full font-semibold hover:bg-red-600 transition-colors inline-block">Official Site</a>
-                <a href="#games" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-apple-blue transition-colors inline-block">More Games</a>
+                <a href="https://store.steampowered.com/agecheck/app/2947440/" target="_blank" class="bg-silent-accent text-white px-8 py-4 rounded-full font-bold hover:bg-red-700 transition-all duration-300 transform hover:scale-105 inline-block text-center border-2 border-silent-gold">
+                    🔥 BUY NOW ON STEAM
+                </a>
+                <a href="https://www.konami.com/games/silenthill/f/gate" target="_blank" class="bg-transparent border-2 border-silent-gold text-silent-gold px-8 py-4 rounded-full font-bold hover:bg-silent-gold hover:text-silent-dark transition-all duration-300 transform hover:scale-105 inline-block">
+                    🏛️ OFFICIAL SITE
+                </a>
+                <a href="#games" class="bg-silent-blue border-2 border-silent-accent text-white px-8 py-4 rounded-full font-bold hover:bg-silent-accent transition-all duration-300 transform hover:scale-105 inline-block">
+                    🎯 MORE GAMES
+                </a>
             </div>
         </div>
     </section>
 
     <!-- Gameplay Systems Section -->
-    <section class="bg-white py-16">
+    <section class="bg-silent-gray py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-bold text-center mb-12">Gameplay Systems</h2>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -815,5 +865,43 @@
 
     <!-- JavaScript -->
     <script src="/assets/js/main.js"></script>
+    
+    <!-- Countdown Timer Script -->
+    <script>
+        // Set the date we're counting down to
+        const countDownDate = new Date("Sep 25, 2025 00:00:00").getTime();
+
+        // Update the count down every 1 second
+        const x = setInterval(function() {
+            // Get today's date and time
+            const now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            const distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="countdown"
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countdown").innerHTML = `
+                    <div class="col-span-4 text-center">
+                        <div class="text-4xl font-bold text-silent-gold mb-2">GAME AVAILABLE NOW!</div>
+                        <div class="text-sm opacity-90">Silent Hill f is now live</div>
+                    </div>
+                `;
+            }
+        }, 1000);
+    </script>
 </body>
 </html>
